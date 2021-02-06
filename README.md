@@ -85,6 +85,6 @@ One can find more about this library from here: https://pypi.org/project/wikiped
 
 
 ## Contact
-Created by [@Varun-93](https://github.com/Varun-93) - feel free to contact me @
+Created by [@Varun-93](https://github.com/Varun-93) - also feel free to contact me @
 [![Linkedin Badge](https://img.shields.io/badge/-VarunBhatia-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/varun-bhatia-a20729a8/)](https://www.linkedin.com/in/varun-bhatia-a20729a8/)
 
