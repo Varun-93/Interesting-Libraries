@@ -5,7 +5,7 @@
 
 ## Table of contents
 * [Pillow](#pillow)
-* [Screenshots](#screenshots)
+* [Howdoi](#howdoi)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -30,3 +30,23 @@ $ python3 -m pip install --upgrade Pillow
 ```
 
 One can find more about this library from here: https://pypi.org/project/Pillow/
+
+
+
+## Howdoi
+Stuck on a coding problem? Wish to visit StackOverflow without leaving the terminal? With howdoi, you can do it!
+It provides instant coding answers via the command line and without opening the browser and read through blogs.
+Howdoi will answer all sorts of queries:
+
+```
+$ howdoi print stack trace python
+> import traceback
+>
+> try:
+>     1/0
+> except:
+>     print '>>> traceback <<<'
+>     traceback.print_exc()
+>     print '>>> end of traceback <<<'
+> traceback.print_exc()
+```
