@@ -61,7 +61,7 @@ One can find more about this library from here: https://pypi.org/project/howdoi/
 
 
 ## Wikipedia
-One can use th Wikipedia module to fetch a variety of information from the Wikipedia website.
+One can use the Wikipedia module to fetch a variety of information from the Wikipedia website.
 Search Wikipedia, get article summaries, get data like links and images from a page, and more, this library wraps the official Wikipedia API.
 
 Use the incessant flow of knowledge with Python for daily needs.
