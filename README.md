@@ -7,6 +7,8 @@
 * [Pillow](#pillow)
 * [Howdoi](#howdoi)
 * [Wikipedia](#wikipedia)
+* [D-Tale](#dtale)
+* [SweetViz](#sweetviz)
 * [Contact](#contact)
 
 
@@ -80,6 +82,48 @@ $ pip install wikipedia
 ```
 
 One can find more about this library from here: https://pypi.org/project/wikipedia/
+
+
+
+
+## D-Tale
+The very first step in data science is exploratory data analysis, aka EDA. All types of data models do not fit all data types, so it is better to thoroughly analyze the data before proceeding further.
+D-Tale is one of the most interesting libraries to help you tackle your Exploratory Data Analysis(EDA) blues. It is a library that allows us to visualize a Pandas DataFrame.
+It generates an interactive graphical interface in which we can define what we want the data to look like and do an exploratory analysis of data as we like.
+
+The good thing about this library is that one can play with the data according to their needs and can not only perform analysis visually but also can extract code to perform that analysis.Dropping NAs, Replacing values, performing required statistics, describing data, finding and plotting correlations all of it can be done in a matter of time.
+
+The only thing that is a pre-requisite is the knowledge of What EDA is and why is it done.
+If one is familiar about the term EDA, one can make efficient use of this library and easily perform the analysis. 
+
+D-Tale can be installed using **pip** :
+
+```
+$ pip install dtale
+```
+
+One can find more about this library from here: https://pypi.org/project/dtale/
+
+
+
+
+## SweetViz
+Yet another amazing library to automate the process of EDA and as the name suggests making EDA more sweeter.
+An open-source Python library that generates beautiful, high-density visualizations to kickstart EDA with just two lines of code.
+
+It integrates associations for numerical (Pearson's correlation), categorical (uncertainty coefficient) and categorical-numerical (correlation ratio) datatypes seamlessly, to provide maximum information for all data types. Also provide a summarized information on the type, miising and NA values etc.
+
+In addition to creating insightful and beautiful visualizations, it provides analysis such as:
+* Comparison of 2 datasets (e.g. Train vs Test)
+* Visualization of the target value against all other variables (e.g. “What was the survival rate of male vs female” etc.)
+
+SweetViz can be installed using **pip** :
+
+```
+$ pip install sweetviz
+```
+
+One can find more about this library from here: https://pypi.org/project/sweetviz/
 
 
 
