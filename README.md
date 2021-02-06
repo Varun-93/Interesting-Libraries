@@ -1,6 +1,7 @@
 # Interesting-Libraries-Packages
 > Python Packages are a set of python modules, while python libraries are a group of python functions aimed to carry out special tasks. In this article, we are going to discuss some of the interesting libraries and packages.
-**NOTE**: Some of these code may not work in **Python 2**. Hence I strongly recommend you to try them in **Python 3**.
+
+**NOTE**: Some of these code may not work in **_Python 2_**. Hence I strongly recommend you to try them in **_Python 3_**.
 
 ## Table of contents
 * [Pillow](#pillow)
