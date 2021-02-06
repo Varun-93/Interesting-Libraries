@@ -9,6 +9,7 @@
 * [Wikipedia](#wikipedia)
 * [D-Tale](#dtale)
 * [SweetViz](#sweetviz)
+* [Vaex](#vaex)
 * [Contact](#contact)
 
 
@@ -124,6 +125,25 @@ $ pip install sweetviz
 ```
 
 One can find more about this library from here: https://pypi.org/project/sweetviz/
+
+
+
+
+## Vaex
+Some datasets are too large to fit into the main memory of your desktop computer, let alone your laptop. Still, we would like to work with large datasets in the era of Big Data.
+Wouldn’t it be great if you could load a 1 Terabyte data file instantly, reading only the parts you need.
+
+Pandas is one of the most used python libraries but it has certain drawbacks like it uses a slow function which is not very suitable for bigger datasets, also pandas only handle results that fit in the memory which can be easily filled.
+
+To overcome these drawbacks of Pandas, we have a high-performance python library for lazy Out-of-Core Dataframes named Vaex which is used to visualize and manipulate big tabular datasets.It makes working with large datasets a breeze. Vaex uses memory mapping, zero memory copy policy and lazy computations for best performance. It never touches or copies the data unless explicitly requested. This makes it possible to work with datasets that are the size of our hard drive.
+
+Vaex can be installed using **pip** :
+
+```
+$ pip install vaex
+```
+
+One can find more about this library from here: https://pypi.org/project/vaex/
 
 
 
