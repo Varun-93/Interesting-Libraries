@@ -20,4 +20,11 @@ Features Of Pillow:
 * Pillow supports a lot of file types such as PDF, WebP, PCX, PNG, JPEG, GIF, PSD, WebP, PCX, GIF, IM, EPS, ICO, BMP, and many others as well.
 * Pillow supports a collection of image filters – FIND_EDGES, DETAIL, SMOOTH, BLUR, CONTOUR, SHARPEN, SMOOTH_MORE, and others.
 
-One can find more about this amazing library and install it from here: https://pypi.org/project/Pillow/
+Pillow can be installed using **pip**:
+
+```
+$ python3 -m pip install --upgrade pip
+$ python3 -m pip install --upgrade Pillow
+```
+
+One can find more about this library from here: https://pypi.org/project/Pillow/
