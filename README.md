@@ -33,10 +33,12 @@ One can find more about this library from here: https://pypi.org/project/Pillow/
 
 
 
+
 ## Howdoi
 Stuck on a coding problem? Wish to visit StackOverflow without leaving the terminal? With howdoi, you can do it!
 It provides instant coding answers via the command line and without opening the browser and read through blogs.
-Howdoi will answer all sorts of queries:
+
+Howdoi answers all sorts of queries:
 
 ```
 $ howdoi print stack trace python
@@ -50,3 +52,11 @@ $ howdoi print stack trace python
 >     print '>>> end of traceback <<<'
 > traceback.print_exc()
 ```
+
+Howdoi can be installed using **pip** :
+
+```
+$ pip install howdoi
+```
+
+One can find more about this library from here: https://pypi.org/project/howdoi/
