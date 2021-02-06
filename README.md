@@ -7,10 +7,6 @@
 * [Pillow](#pillow)
 * [Howdoi](#howdoi)
 * [Wikipedia](#wikipedia)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 
@@ -84,3 +80,9 @@ $ pip install wikipedia
 ```
 
 One can find more about this library from here: https://pypi.org/project/wikipedia/
+
+
+
+
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
