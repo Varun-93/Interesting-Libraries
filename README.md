@@ -6,7 +6,7 @@
 ## Table of contents
 * [Pillow](#pillow)
 * [Howdoi](#howdoi)
-* [Technologies](#technologies)
+* [Wikipedia](#wikipedia)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -60,3 +60,17 @@ $ pip install howdoi
 ```
 
 One can find more about this library from here: https://pypi.org/project/howdoi/
+
+
+
+
+## Wikipedia
+One can use th Wikipedia module to fetch a variety of information from the Wikipedia website.
+Search Wikipedia, get article summaries, get data like links and images from a page, and more, this library wraps the official Wikipedia API.
+
+Use the incessant flow of knowledge with Python for daily needs.
+>>> import wikipedia
+
+>>> wikipedia.search("Barack")
+# [u'Barak (given name)', u'Barack Obama', u'Barack (brandy)', u'Presidency of Barack Obama', u'Family of Barack Obama', u'First inauguration of Barack Obama', u'Barack Obama presidential campaign, 2008', u'Barack Obama, Sr.', u'Barack Obama citizenship conspiracy theories', u'Presidential transition of Barack Obama']
+
