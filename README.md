@@ -11,6 +11,7 @@
 * [SweetViz](#sweetviz)
 * [Vaex](#vaex)
 * [Vulture](#vulture)
+* [Dataprep](#dataprep)
 * [Contact](#contact)
 
 
@@ -175,6 +176,27 @@ $ pip install vulture
 ```
 
 One can find more about this library from here: https://pypi.org/project/vulture/
+
+
+
+
+## Dataprep
+Dataprep is another open-source python library that allows you to prepare your data and that too with just a few lines of code.
+There are various things that can be performed with the help of Dataprep:
+* Collect data from common data sources(dataprep.connector). Connector provides a simple wrapper to collect structured data from different Web APIs (e.g., Twitter API, Yelp Fusion API, Spotify API, DBLP API), making web data collection easy and efficient, without requiring advanced programming skills.
+* Perform exploratory data analysis(dataprep.eda).
+* Clean and standardize data(dataprep.clean) by providing a large number of functions with a unified interface for cleaning and standardizing data of various semantic types in a Pandas DataFrame. For example, clean_email() function supports cleaning of messy email values by doing the strict semantic type check.
+
+Dataprep can be installed using **pip** :
+
+```
+$ pip install dataprep
+```
+
+One can find more about this library from here: https://pypi.org/project/dataprep/
+
+
+
 
 
 ## Contact
