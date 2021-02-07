@@ -7,7 +7,7 @@
 * [Pillow](#pillow)
 * [Howdoi](#howdoi)
 * [Wikipedia](#wikipedia)
-* [D-Tale](#dtale)
+* [D-Tale](#d-tale)
 * [SweetViz](#sweetviz)
 * [Vaex](#vaex)
 * [Vulture](#vulture)
