@@ -10,6 +10,7 @@
 * [D-Tale](#dtale)
 * [SweetViz](#sweetviz)
 * [Vaex](#vaex)
+* [Vulture](#vulture)
 * [Contact](#contact)
 
 
@@ -146,6 +147,34 @@ $ pip install vaex
 One can find more about this library from here: https://pypi.org/project/vaex/
 
 
+
+
+## Vulture
+Maintaining a high level of code quality is important for any serious project. One aspect of this is ensuring that all code is actually used. There are many reasons for dead code ending up in a project. The most common is refactoring, but another is misspellings, which are only detected at runtime for dynamic languages. Finding and removing dead code allows to keep the code base clean and reduces bugs.
+
+As the name suggests, Vulture finds dead code or code which is unused in Python programs. This is useful for cleaning up and finding errors in large code bases.
+
+The only drawback of this library is the false positives are common. But it can be handled too with some tweaks. 
+
+After installation, it is simple to use:
+```
+$ vulture path/to/code
+```
+For example, given this small bit of Python:
+![Vulture1 screenshot](./img/screenshot.png)
+
+Saving that and running vulture against it will give us the following output:
+![Vulture2 screenshot](./img/screenshot.png)
+
+It cleverly finds the variable defined in a function that isn't used. It does know that the function is used.
+
+Vulture can be installed using **pip** :
+
+```
+$ pip install vulture
+```
+
+One can find more about this library from here: https://pypi.org/project/vulture/
 
 
 ## Contact
