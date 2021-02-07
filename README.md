@@ -161,10 +161,10 @@ After installation, it is simple to use:
 $ vulture path/to/code
 ```
 For example, given this small bit of Python:
-![Vulture1 screenshot](./img/screenshot.png)
+![Vulture1 screenshot](./img/Vulture/vulture1.png)
 
 Saving that and running vulture against it will give us the following output:
-![Vulture2 screenshot](./img/screenshot.png)
+![Vulture2 screenshot](./img/Vulture/vulture2.png)
 
 It cleverly finds the variable defined in a function that isn't used. It does know that the function is used.
 
