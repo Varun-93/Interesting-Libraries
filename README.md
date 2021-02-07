@@ -202,7 +202,29 @@ One can find more about this library from here: https://pypi.org/project/datapre
 
 
 ## Pyforest
+Sometimes, it happens that we spent a huge amount of time importing some common libraries like NumPy, pandas, matplotlib, seaborn, nltk and many more. To remove this headache of importing such libraries manually, we have pyforest library.
+Pyforest lazy-imports all popular Python Data Science libraries so that they are always there when you need them. If you don't use a library, it won't be imported.
 
+Types of functions used in pyforest are:
+* **lazy_imports():** Returns all the libraries available in pyforest.
+* **active_imports():** Returns all the libraries which have been used in the program.
+ 
+The advantage of using this library can be observed from the following:
+* **Without Pyforest:**
+![Dataprep screenshot](./img/pyforest/without.PNG)
+
+* **With Pyforest:**
+![Dataprep screenshot](./img/pyforest/with.PNG)
+
+All of these & more can be imported using just **_one single line_**
+
+Pyforest can be installed using **pip** :
+
+```
+$ pip install pyforest
+```
+
+One can find more about this library from here: https://pypi.org/project/pyforest/
 
 
 
